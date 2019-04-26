@@ -16,6 +16,11 @@ module.exports = {
   themeConfig: {
     displayAllHeaders: true,
     sidebar: sidebar,
-    sidebarDepth: 1
+    sidebarDepth: 1,
+    repo: 'entrepreneur-interet-general/bulletins',
+    repoLabel: 'Project source code',
+    docsRepo: 'entrepreneur-interet-general/bulletins-docs',
+    editLinks: true,
+    editLinkText: 'Help us improve this page!'
   }
 }
