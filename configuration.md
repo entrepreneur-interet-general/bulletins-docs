@@ -9,6 +9,11 @@ When you've set the database engine, create the application tables with the foll
 php artisan migrate
 ```
 
+You can create the schema and generate dummy data with the following command:
+```
+php artisan migrate:fresh --seed
+```
+
 ## App settings
 Regarding `.env` specific to the app, you should file the following variables:
 
