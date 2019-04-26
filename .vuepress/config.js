@@ -21,6 +21,6 @@ module.exports = {
     repoLabel: 'Project source code',
     docsRepo: 'entrepreneur-interet-general/bulletins-docs',
     editLinks: true,
-    editLinkText: 'Help us improve this page!'
+    editLinkText: 'Improve this page'
   }
 }
