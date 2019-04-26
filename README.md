@@ -7,6 +7,15 @@ Bulletins is a weekly retrospective tool for multiple projects or teams. It lets
 
 It's asynchronous and transparent at its heart. All teams can fill their retrospective when they want through a simple web interface, as long as it's before Friday 3 PM. On Fridays at 3 PM, everyone gets a weekly recap email with all filled retrospectives. The web interface lets everyone browse through previous retrospectives by week or by team.
 
+## Screenshots
+### Filling bulletins
+The form to fill the weekly bulletins.
+[![Form weekly bulletins](/form.png "Form weekly bulletins")](/form.png)
+
+### Previous bulletins
+Browsing previous bulletins for a projects.
+[![Previous bulletins](/bulletins.png "Previous bulletins")](/bulletins.png)
+
 ## Features
 Bulletins is opinionated on a few things. Here are some principles:
 - Retrospectives should be quick. The form has a select and 3 text inputs. Each text input is limited to 300 characters (a bit more than a tweet). Filling a retrospective for a team takes less than 5 minutes per week.
