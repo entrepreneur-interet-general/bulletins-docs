@@ -4,6 +4,8 @@ sidebar = [
   'configuration',
   'contributing',
   'security',
+  'license-doc',
+  'credits'
 ]
 
 module.exports = {
@@ -14,7 +16,6 @@ module.exports = {
     ['meta', { name: 'theme-color', content: '#0053b3' }]
   ],
   themeConfig: {
-    displayAllHeaders: true,
     sidebar: sidebar,
     sidebarDepth: 1,
     repo: 'entrepreneur-interet-general/bulletins',
