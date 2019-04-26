@@ -13,7 +13,7 @@ The form to fill the weekly bulletins.
 [![Form weekly bulletins](/form.png "Form weekly bulletins")](/form.png)
 
 ### Previous bulletins
-Browsing previous bulletins for a projects.
+Browsing previous bulletins for a project.
 [![Previous bulletins](/bulletins.png "Previous bulletins")](/bulletins.png)
 
 ## Features
