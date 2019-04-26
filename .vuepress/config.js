@@ -8,7 +8,7 @@ sidebar = [
 
 module.exports = {
   title: 'Bulletins',
-  description: 'Jeu de données des affaires maritimes sur l\'assistance et le sauvetage en mer',
+  description: 'Bulletins is a weekly retrospective tool for multiple projects or teams. It lets people reflect on their past week.',
   head: [
     ['link', { rel: 'icon', href: '/favicon.png' }],
     ['meta', { name: 'theme-color', content: '#0053b3' }]
