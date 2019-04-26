@@ -14,13 +14,19 @@ You can create the schema and generate dummy data with the following command:
 php artisan migrate:fresh --seed
 ```
 
-## App settings
+## Application settings
 Regarding `.env` specific to the app, you should file the following variables:
 
-- `REPORT_TIMEZONE`: The timezone to use for reports. Use a time zone name from the IANA database like Europe/Paris.
+- `APP_NAME`: The name of the application. By default this is `Bulletins`.
+- `APP_ENV`: The application environment. You can set values like `local`, `staging`, `production`.
+- `APP_DEBUG`: Enable (`true`) or disable (`false`) stacktraces.
+- `APP_URL`: The base URL of the web application.
+- `APP_LOCALE`: The locale to use for the application. Use `en` for English or `fr` for French.
+- `REPORT_TIMEZONE`: The timezone to use for reports. Use a timezone name from the IANA database like Europe/Paris.
 - `REPORT_EMAIL`: To which email address should weekly reports be sent to. Example: `team@company.com`
 - `REPORT_SECRET`: The password to see previous reports in the web interface.
 - `REPORTS_PASSWORD_HINT`: An hint to guess the password of the web interface. If you don't want to provide an hint, leave it null.
+- `SLACK_TOKEN`: The Slack token to use when calling the API.
 - `SLACK_GENERAL_CHANNEL`: A Slack channel name where a reminder to fill the reports will be posted on Fridays at 10 AM. Example: #general
 
 ## Defining teams
