@@ -3,11 +3,9 @@ Bulletins is a [Laravel](https://laravel.com) 5.8 project. It requires PHP 7.1+ 
 
 A standard installation may look like this:
 ```bash
-# Cloning the repository
-git clone https://github.com/entrepreneur-interet-general/bulletins.git
+# Install the project using Composer
+composer create-project --prefer-dist --stability=dev entrepreneur-interet-general/bulletins
 cd bulletins
-# Installing PHP dependencies
-composer install
 # Copy the default env file
 cp .env.example .env
 php artisan key:generate
