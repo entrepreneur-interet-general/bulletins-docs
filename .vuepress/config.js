@@ -9,6 +9,7 @@ sidebar = [
 ]
 
 module.exports = {
+  theme: 'gouv-fr',
   title: 'Bulletins',
   description: 'Bulletins is a weekly retrospective tool for multiple projects or teams. It lets people reflect on their past week.',
   head: [
