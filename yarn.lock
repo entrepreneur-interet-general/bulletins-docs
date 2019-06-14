@@ -7220,10 +7220,10 @@ vuepress-html-webpack-plugin@^3.2.0:
     toposort "^1.0.0"
     util.promisify "1.0.0"
 
-vuepress-theme-gouv-fr@^0.4.0:
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/vuepress-theme-gouv-fr/-/vuepress-theme-gouv-fr-0.4.0.tgz#08437fdb72a85c28f5b8c46fc4d43b9cdbeec551"
-  integrity sha512-SL6wkZWAjWY2jUfm/y164qi0rpjFAm+gB5xtKJu4lOl/M047GWtRUYvqmN/XXvTXIqYpYmy8lCrKcwoG8MU2rw==
+vuepress-theme-gouv-fr@^0.5.0:
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/vuepress-theme-gouv-fr/-/vuepress-theme-gouv-fr-0.5.0.tgz#337831e060f50ed0d5bf726ce981477204d4d730"
+  integrity sha512-M916sm4VPJZAVhiL1vCkv5oHjLOeDVR4+4YuV8BpkClku28/Vb3eK7IUkCwwR7HUIe6g4L46zJpKoQLyxrQzcg==
 
 vuepress@^0.14.11:
   version "0.14.11"
