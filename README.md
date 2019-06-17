@@ -24,7 +24,7 @@ Bulletins is opinionated on a few things. Here are some principles:
 - Teams are free to fill their weekly retrospective when they want between Sunday midnight and Friday 3PM.
 - Teams are reminded to fill their weekly retrospective in various ways:
     - a collective Slack reminder on a channel you can define on Fridays at 10 AM
-    - by DM on Slack to each member of a team if the retrospective of the team has not be filled yet on Fridays at 2 PM and 2:45 PM
+    - by DM on Slack or by email to each member of a team if the retrospective of the team has not be filled yet on Fridays at 2 PM and 2:45 PM
 - At 3 PM every Friday, all filled weekly retrospectives are sent to an email address, typically a mailing list where every member of the team can be reached.
 - Previous retrospectives can be seen on the web interface after authenticating with a password you can define. You can define a password hint to help people remember the password.
 - Each team can share a unique URL which lets anyone see all previous retrospectives of a specific team. It's useful when working with outside people or clients for example.
