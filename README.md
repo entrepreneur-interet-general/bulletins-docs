@@ -19,6 +19,7 @@ Browsing previous bulletins for a project.
 ## Features
 Bulletins is opinionated on a few things. Here are some principles:
 - Retrospectives should be quick. The form has a select and 3 text inputs. Each text input is limited to 300 characters (a bit more than a tweet). Filling a retrospective for a team takes less than 5 minutes per week.
+- Teams can declare an upcoming key date with a description. This can be used to remember when a demo will take place, when an important decision will happen etc.
 - We don't provide an authentication system. It should be deployed internally or can be secured with something like HTTP Auth Basic.
 - Transparency is important. When teams fill their retrospective, it can be read by all other teams. Everyone who has access to the application can browse through previous retrospectives and export them in CSV.
 - Teams are free to fill their weekly retrospective when they want between Sunday midnight and Friday 3PM.
