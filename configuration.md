@@ -22,6 +22,7 @@ Regarding `.env` specific to the app, you should file the following variables:
 - `APP_DEBUG`: Enable (`true`) or disable (`false`) stacktraces.
 - `APP_URL`: The base URL of the web application.
 - `APP_LOCALE`: The locale to use for the application. Use `en` for English or `fr` for French.
+- `PROJECTS_CONFIG_FILENAME`: the filename used to define your projects in the `config` folder. Will likely be set to `projects.yml`
 - `REPORT_TIMEZONE`: The timezone to use for reports. Use a timezone name from the IANA database like Europe/Paris.
 - `REPORT_EMAIL`: To which email address should weekly reports be sent to. Example: `team@company.com`
 - `REPORT_SECRET`: The password to see previous reports in the web interface.
@@ -35,22 +36,21 @@ In order to send the weekly bulletins by email, you'll need to specify which SMT
 To do so, fill all the environment variables starting with `MAIL_` in the `.env` file.
 
 ## Defining teams
-You can define your various teams / projects in `config/app.php` under the key `projects`.
+You can define your various teams / projects in the `config` folder in a YAML file. We provide a sample file in `config/projects.example.yml` that you can copy at `config/projects.yml` for instance. Update the environment variable `PROJECTS_CONFIG_FILENAME` according to the filename you choose.
 
-```php
-<?php
-return [
-    // More configuration
-
-    'projects' => new App\Projects([
-      // Define a project named "Project name 1" with reminders on Slack
-      // and 2 members in this project. The array are Slack user IDs.
-      // The project logo is stored in `public/images/logo/project-logo.png`
-      new App\Project('Project name 1', 'slack', ['UEMA8DE8Y', 'UEN897F5K'], 'images/logo/project-logo.png'),
-      // A project with no Slack reminders and the same logo
-      new App\Project('Project name 2', null, [], 'images/logo/project-logo.png'),
-    ]),
-
-    // More configuration
-];
+Here is what it looks like:
+```yaml
+-
+  name: "Example project"
+  notification: null
+  logo: images/logos/example.png
+  members:
+    - UEMA8DE9Y
+    - UEN897F5U
+-
+  name: Bar
+  notification: slack
+  logo: images/logos/bar.png
+  members:
+    - UEMA8AA8Y
 ```

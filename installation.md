@@ -13,6 +13,7 @@ composer create-project --prefer-dist --stability=dev entrepreneur-interet-gener
 cd bulletins
 # Copy the default env file
 cp .env.example .env
+cp config/projects.example.yml config/projects.yml
 php artisan key:generate
 # Start with a SQLite database and some sample data
 touch database/database.sqlite
