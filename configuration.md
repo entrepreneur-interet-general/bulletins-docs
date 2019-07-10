@@ -47,15 +47,15 @@ Here is what it looks like:
 ```yaml
 -
   name: "Example project"
-  notification: null
+  notification: slack
   logo: images/logos/example.png
   members:
     - UEMA8DE9Y
     - UEN897F5U
 -
-  name: Bar
-  notification: slack
+  name: "Bar"
+  notification: email
   logo: images/logos/bar.png
   members:
-    - UEMA8AA8Y
+    - bar@example.com
 ```
