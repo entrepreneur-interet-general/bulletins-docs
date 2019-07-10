@@ -35,6 +35,11 @@ In order to send the weekly bulletins by email, you'll need to specify which SMT
 
 To do so, fill all the environment variables starting with `MAIL_` in the `.env` file.
 
+## Creating a Slack application
+If you're using Slack, you can send reminders to fill the reports to a channel or to individual people.
+
+To do so, you will need to [create a Slack app](https://api.slack.com/slack-apps#creating_apps). The required permissions are `users:read` and `chat:write:bot`. Write down the OAuth Access Token and put the value in the `SLACK_TOKEN` `.env file.
+
 ## Defining teams
 You can define your various teams / projects in the `config` folder in a YAML file. We provide a sample file in `config/projects.example.yml` that you can copy at `config/projects.yml` for instance. Update the environment variable `PROJECTS_CONFIG_FILENAME` according to the filename you choose.
 
