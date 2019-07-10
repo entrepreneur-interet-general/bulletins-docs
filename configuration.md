@@ -40,6 +40,15 @@ If you're using Slack, you can send reminders to fill the reports to a channel o
 
 To do so, you will need to [create a Slack app](https://api.slack.com/slack-apps#creating_apps). The required permissions are `users:read` and `chat:write:bot`. Write down the OAuth Access Token and put the value in the `SLACK_TOKEN` `.env file.
 
+## Recurring tasks
+In order to remind people to fill reports or to send the weekly email, we need scheduled tasks. These tasks have already been scheduled, you need to execute them. You can follow [Laravel's documentation] and put this in your crontab:
+
+```sh
+* * * * * cd /path-to-your-project && php artisan schedule:run >> /dev/null 2>&1
+```
+
+This Cron will call the Laravel command scheduler every minute. When the schedule:run` command is executed, Laravel will evaluate your scheduled tasks and runs the tasks that are due.
+
 ## Defining teams
 You can define your various teams / projects in the `config` folder in a YAML file. We provide a sample file in `config/projects.example.yml` that you can copy at `config/projects.yml` for instance. Update the environment variable `PROJECTS_CONFIG_FILENAME` according to the filename you choose.
 
