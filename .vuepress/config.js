@@ -2,6 +2,7 @@ sidebar = [
   ['/', 'Home'],
   'installation',
   'configuration',
+  'deployment',
   'contributing',
   'security',
   'license-doc',
