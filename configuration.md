@@ -68,3 +68,5 @@ Here is what it looks like:
   members:
     - bar@example.com
 ```
+
+You can mix reminders by email or Slack on a project basis.
