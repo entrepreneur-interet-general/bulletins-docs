@@ -2,7 +2,7 @@
 Configuration files are located in `.env` and `config/app.php`.
 
 ## Database
-First, specify which database you want to use. Laravel supports various engines (SQLite, MySQL, PostgreSQL, SQL Server). You can specify which database you want to use with `config/database.php` and the related environment variables. To learn more, refer to the [Laravel documentation](https://laravel.com/docs/5.8/database#configuration).
+First, specify which database you want to use. Laravel supports various engines (SQLite, MySQL, PostgreSQL, SQL Server). You can specify which database you want to use with `config/database.php` and the related environment variables. To learn more, refer to the [Laravel documentation](https://laravel.com/docs/6.0/database#configuration).
 
 When you've set the database engine, create the application tables with the following command:
 ```bash

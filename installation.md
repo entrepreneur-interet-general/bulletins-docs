@@ -4,7 +4,7 @@
 ![Packagist](https://img.shields.io/packagist/l/entrepreneur-interet-general/bulletins.svg?style=flat-square)
 ![Packagist](https://img.shields.io/packagist/v/entrepreneur-interet-general/bulletins.svg?style=flat-square)
 
-Bulletins is a [Laravel](https://laravel.com) 5.8 project. It requires PHP 7.1+ and [Composer](https://getcomposer.org).
+Bulletins is a [Laravel](https://laravel.com) 6.0 project. It requires PHP 7.2+ and [Composer](https://getcomposer.org).
 
 A standard installation may look like this:
 ```bash
