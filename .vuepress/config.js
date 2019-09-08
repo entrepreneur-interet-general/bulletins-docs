@@ -1,6 +1,7 @@
 sidebar = [
   ['/', 'Home'],
   'installation',
+  'CHANGELOG',
   'configuration',
   'deployment',
   'contributing',
