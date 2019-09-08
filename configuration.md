@@ -41,7 +41,7 @@ If you're using Slack, you can send reminders to fill the reports to a channel o
 To do so, you will need to [create a Slack app](https://api.slack.com/slack-apps#creating_apps). The required permissions are `users:read` and `chat:write:bot`. Write down the OAuth Access Token and put the value in the `SLACK_TOKEN` variable of the `.env` file.
 
 ## Recurring tasks
-In order to remind people to fill reports or to send the weekly email, we need scheduled tasks. These tasks have already been scheduled, you need to execute them. You can follow [Laravel's documentation] and put this in your crontab:
+In order to remind people to fill reports or to send the weekly email, we need scheduled tasks. These tasks have already been scheduled, you need to execute them. You can follow [Laravel's documentation](https://laravel.com/docs/6.0/scheduling) and put this in your crontab:
 
 ```sh
 * * * * * cd /path-to-your-project && php artisan schedule:run >> /dev/null 2>&1
