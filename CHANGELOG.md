@@ -4,10 +4,16 @@ All notable changes to this project will be documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## Unreleased
+Nothing yet.
+
+## 0.4.0 — 2019-10-19
+### Added
+- Added a Docker file as an option for local development and deployment
+
 ### Changed
 - New style for hero banner
 
-[Compare commits between 0.3.0 and master](https://github.com/entrepreneur-interet-general/bulletins/compare/0.3.0..master).
+[Compare commits between 0.3.0 and 0.4.0](https://github.com/entrepreneur-interet-general/bulletins/compare/0.3.0..0.4.0).
 
 ## 0.3.0 — 2019-09-04
 ### Added
