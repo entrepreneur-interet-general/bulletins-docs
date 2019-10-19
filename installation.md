@@ -21,3 +21,18 @@ php artisan migrate:fresh --seed
 ```
 
 More information can be found on [Laravel's documentation](https://laravel.com/docs/5.8#installation).
+
+## With Docker
+
+```sh
+# Clone the project
+git clone https://github.com/entrepreneur-interet-general/bulletins.git
+cd bulletins
+# Customize docker-compose.yml and config/projects.yml then
+# start services
+docker-compose up
+# Initiate datababse
+docker-compose exec php php artisan key:generate
+docker-compose exec php touch database/database.sqlite
+docker-compose exec php php artisan migrate:fresh --seed
+```
