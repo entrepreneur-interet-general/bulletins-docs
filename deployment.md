@@ -42,8 +42,8 @@ Finally, you can get free SSL certificates using [Certbot](https://certbot.eff.o
 # Clone the project
 git clone https://github.com/entrepreneur-interet-general/bulletins.git
 cd bulletins
-# Customize docker-compose.yml and config/projects.yml then
-# start services
+# Customize docker-compose.yml and config/projects.example.yml (it will be copied with this name)
+# then start services
 docker-compose up -d
 # Initiate datababse
 docker-compose exec php php artisan key:generate
