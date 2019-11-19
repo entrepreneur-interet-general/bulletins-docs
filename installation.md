@@ -28,8 +28,8 @@ More information can be found on [Laravel's documentation](https://laravel.com/d
 # Clone the project
 git clone https://github.com/entrepreneur-interet-general/bulletins.git
 cd bulletins
-# Customize docker-compose.yml and config/projects.yml then
-# start services
+# Customize docker-compose.yml and config/projects.example.yml (it will be copied into the container)
+# then start services
 docker-compose up
 # Initiate datababse
 docker-compose exec php php artisan key:generate
