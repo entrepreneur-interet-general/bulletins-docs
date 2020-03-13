@@ -5,7 +5,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 ### Changed
-Upgrade Laravel to version 7
+- Upgrade Laravel to version 7
+
+### Added
+- Prefill project when clicking on a reminder to fill
 
 ## 0.5.1 - 2020-02-14
 ### Fixed
