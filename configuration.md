@@ -24,6 +24,7 @@ Regarding `.env` specific to the app, you should file the following variables:
 - `APP_LOCALE`: The locale to use for the application. Use `en` for English or `fr` for French.
 - `PROJECTS_CONFIG_FILENAME`: the filename used to define your projects in the `config` folder. Will likely be set to `projects.yml`
 - `REPORT_TIMEZONE`: The timezone to use for reports. Use a timezone name from the IANA database like Europe/Paris.
+- `REPORT_COUNTRY_CODE`: The ISO country code to use to determine bank holidays. Useful to send reminders on the last working day of the week.
 - `REPORT_EMAIL`: To which email address should weekly reports be sent to. Example: `team@company.com`
 - `REPORT_SECRET`: The password to see previous reports in the web interface.
 - `REPORTS_PASSWORD_HINT`: An hint to guess the password of the web interface. If you don't want to provide an hint, leave it null.
