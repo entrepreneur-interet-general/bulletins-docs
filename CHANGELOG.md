@@ -4,6 +4,9 @@ All notable changes to this project will be documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## Unreleased
+Nothing yet.
+
+## 0.7.0 - 2020-05-09
 ### Added
 - Send reminders on last working day of week [#150](https://github.com/entrepreneur-interet-general/bulletins/pull/150). You'll need to fill the env variable `REPORT_COUNTRY_CODE`, see [configuration](configuration.md).
 
